@@ -1,10 +1,26 @@
-# Angular-electron-boilerplate
+# angular-electron-boilerplate
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
+## Install dependencies
+
+Run `npm install` inside the project's folder. NPM will install all the dependencies listed in the package.json file.
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Electron build 
+
+Run `npm run electron` to build the Angular app and serve it through the Electron app.
+
+## Electron live development
+
+Run `npm run serve`, wait until build finishes and run `npm run electron-live` to get live changes of the Angular app inside Electron.
+
+## Electron aot
+
+Run `npm run electron-aot` to build the Angular app with --prod flag on and serve it through the Electron app.
 
 ## Code scaffolding
 
